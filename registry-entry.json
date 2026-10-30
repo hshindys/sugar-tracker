@@ -1,0 +1,27 @@
+{
+  "id": "sugar-tracker",
+  "name": "Sugar Tracker",
+  "version": "1.0.16",
+  "path": "plugins/sugar-tracker",
+  "author": "Hatem <hatem@users.noreply.github.com>",
+  "summary": "Track daily sugar intake from the QS Bar or a screen-edge popout, starting with ordinary white sugar.",
+  "description": "Track daily sugar intake from the QS Bar or a screen-edge popout, starting with ordinary white sugar.",
+  "tags": [
+    "bar-widget",
+    "health"
+  ],
+  "accent": "#8f8378",
+  "surface": "#101010",
+  "preview": "",
+  "screenshots": [],
+  "manifest": "product-manifest.json",
+  "manifestSha256": "fd0365406506fc59e9abb289b6d1d3857ff21f53099f81d47b8c4bfb5213279a",
+  "official": false,
+  "tagline": "Track daily sugar intake from the QS Bar or a screen-edge popout, starting with ordinary white sugar.",
+  "icon": "spoon",
+  "hosts": [
+    "topbarGlyph",
+    "framePopout"
+  ],
+  "lastUpdated": "2026-10-30"
+}

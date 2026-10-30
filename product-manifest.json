@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "id": "sugar-tracker",
+  "category": "plugins",
+  "version": "1.0.16",
+  "destination": "ryoku/plugins/sugar-tracker",
+  "files": [
+    {
+      "source": "content/Panel.qml",
+      "destination": "content/Panel.qml",
+      "sha256": "9bd8cab8d25e20f3fd2a8d2e7836fd6e5b6ecadb9ff04ab60956915a3d0d2aaa",
+      "mode": "0644",
+      "size": 26376,
+      "install": true
+    },
+    {
+      "source": "content/Widget.qml",
+      "destination": "content/Widget.qml",
+      "sha256": "a23918c7bb35a4516d9f7bc15c6349a87be37a2545f9311f619b512bcafe311c",
+      "mode": "0644",
+      "size": 3355,
+      "install": true
+    },
+    {
+      "source": "manifest.json",
+      "destination": "manifest.json",
+      "sha256": "c778160f72babdd21f657b31bdf2110efc6adb3b882cd2837d2b9bfc2748b616",
+      "mode": "0644",
+      "size": 2260,
+      "install": true
+    },
+    {
+      "source": "service/Main.qml",
+      "destination": "service/Main.qml",
+      "sha256": "21566b4e193f9d49db9804792d70984eb0a649f3c0293191024c0d7d0a76a442",
+      "mode": "0644",
+      "size": 3377,
+      "install": true
+    }
+  ]
+}

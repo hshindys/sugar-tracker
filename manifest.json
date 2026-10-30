@@ -1,0 +1,109 @@
+{
+  "id": "sugar-tracker",
+  "name": "Sugar Tracker",
+  "version": "1.0.16",
+  "author": "Hatem <hatem@users.noreply.github.com>",
+  "description": "Track daily sugar intake from the QS Bar or a screen-edge popout, starting with ordinary white sugar.",
+  "license": "MIT",
+  "tags": [
+    "bar-widget",
+    "health"
+  ],
+  "official": false,
+  "entryPoints": {
+    "main": "service/Main.qml",
+    "content": "content/Widget.qml",
+    "panel": "content/Panel.qml"
+  },
+  "files": [],
+  "capabilities": {
+    "densities": [
+      "glyph",
+      "compact"
+    ]
+  },
+  "hosts": [
+    "topbarGlyph",
+    "framePopout"
+  ],
+  "dependencies": {
+    "commands": [
+      "mkdir"
+    ]
+  },
+  "defaults": {
+    "host": "topbarGlyph",
+    "bar": {
+      "section": "right"
+    },
+    "icon": "spoon",
+    "label": "Sugar"
+  },
+  "panel": {
+    "width": 428
+  },
+  "metadata": {
+    "settings": [
+      {
+        "key": "dailyGoal",
+        "type": "int",
+        "label": "Daily sweetener goal (g)",
+        "group": "Sugar Tracker",
+        "default": 25,
+        "min": 1,
+        "max": 200,
+        "step": 1
+      },
+      {
+        "key": "whiteSugarGrams",
+        "type": "int",
+        "label": "White sugar per tap (g)",
+        "group": "Quick-add",
+        "default": 4,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      {
+        "key": "brownSugarGrams",
+        "type": "int",
+        "label": "Brown sugar per tap (g)",
+        "group": "Quick-add",
+        "default": 4,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      {
+        "key": "steviaGrams",
+        "type": "int",
+        "label": "Stevia per tap (g)",
+        "group": "Quick-add",
+        "default": 1,
+        "min": 1,
+        "max": 100,
+        "step": 1
+      },
+      {
+        "key": "brownSugarRatio",
+        "type": "int",
+        "label": "Brown sugar ratio (%)",
+        "group": "Equivalents",
+        "default": 100,
+        "min": 10,
+        "max": 400,
+        "step": 5
+      },
+      {
+        "key": "steviaSweetness",
+        "type": "int",
+        "label": "Stevia sweetness (× white sugar)",
+        "group": "Equivalents",
+        "default": 200,
+        "min": 1,
+        "max": 500,
+        "step": 1
+      }
+    ]
+  }
+}
