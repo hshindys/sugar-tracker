@@ -1,7 +1,7 @@
 {
   "id": "sugar-tracker",
   "name": "Sugar Tracker",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "author": "Hatem <hatem@users.noreply.github.com>",
   "description": "Track daily sugar intake from the QS Bar or a screen-edge popout, starting with ordinary white sugar.",
   "license": "MIT",
